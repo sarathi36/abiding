@@ -1,0 +1,244 @@
+a{
+    text-decoration: none;
+}
+#main{
+   position: sticky;
+   overflow: hidden;
+    width: 100%;
+    background-color: rgb(56, 56, 132);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#main1{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#main1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+}
+#main2{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main3{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#main3 img{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+#main2 li{
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    
+}
+#main2 a{
+    color: white;
+    text-decoration: none;
+    
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px;
+}
+#main2 a:hover{
+    background-color:white;
+    color:rgb(56, 56, 132); 
+    border-radius: 15px;
+}
+#body{
+    background-image: url(images/banner.webp);
+    background-size: cover;
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#body1{
+    width: 75%;
+    margin: auto;
+}
+#body2{
+
+    width: 25%;
+    margin: auto;
+}
+#body1 img{
+    height: 90%;
+    width: 75%;
+    margin: auto;
+}
+#body2 h1{
+    width: 50%;
+    font-size: 45px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+#body h1:hover{
+    cursor: pointer;
+    color: black ;
+    background-color: white;
+}
+#body strong{
+    font-size: 45px;
+    background-color: antiquewhite;
+    color: black;
+    margin: auto;
+}
+#body strong:hover{
+    color: antiquewhite;
+    background-color: black;
+    cursor: pointer;
+}
+#content{
+    width: 100%;
+    background-color: gray;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+
+}
+#content1{
+    width: 20%;
+    
+    padding: 15px;
+    flex:20%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#content1 img{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow:100px inset black;
+    height: 250px;
+    padding: 10px;
+}
+#content1 img:hover + #content1 h2{
+   /*  box-shadow: 100px 100px 100px 100px inset black; */
+   color: white;
+}
+#content1 h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#content1 h2:hover{
+    background-color: antiquewhite;
+    border-radius: 25px;
+    
+}
+#content2{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+#service{
+    width: 90%;
+   
+    margin: auto;
+
+}
+#service h1{
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+#service p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#logo{
+    width: 90%;
+    
+    display:flex ;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#logo1{
+    width: 80px;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#logo1 img{
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+#help{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#help1{
+    width: 45%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#help2{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#help2 h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#help2 h3{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#help1 img{
+    height: 500px;
+    width: 500px;
+}
+#last{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#last1{
+    width: 30%;
+    display: block;
+   
+    margin: auto;
+}
+#last1 a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+#last1 li{
+    list-style-type: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
